@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/bot_checker.py": {
+      "maxDuration": 30
+    }
+  }
+}

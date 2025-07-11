@@ -1,0 +1,35 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Bot Accessibility Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI Bot Accessibility Checker v2</h1>
+            <p>Sprawdź, jak boty AI widzą Twoją stronę i czy nie tracisz ruchu z nowej generacji wyszukiwarek.</p>
+        </header>
+
+        <form id="check-form">
+            <input type="url" id="url-input" placeholder="Wpisz adres URL strony, np. example.com" required>
+            <button type="submit" id="submit-button">Uruchom Test</button>
+        </form>
+
+        <div id="loader" class="loader" style="display: none;"></div>
+
+        <div id="results-container">
+            <pre id="results-output"></pre>
+        </div>
+        
+        <footer>
+            <p>Powered by Vercel & Python</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
