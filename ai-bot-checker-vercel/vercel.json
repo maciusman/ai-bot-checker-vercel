@@ -3,5 +3,11 @@
     "api/bot_checker.py": {
       "maxDuration": 30
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/api/bot_checker",
+      "destination": "/api/bot_checker.py"
+    }
+  ]
 }
